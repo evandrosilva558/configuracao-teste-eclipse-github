@@ -2,7 +2,10 @@ package teste.programa.exec.java;
 
 public class Aluno {
 	
-	public String name;
+	private String name;
+	
+	private String sobreNome;
+	
 	
 	public String getName() {
 		return name;
@@ -12,5 +15,12 @@ public class Aluno {
 		this.name = name;
 	}
 
+	public String getSobreNome() {
+		return sobreNome;
+	}
+
+	public void setSobreNome(String sobreNome) {
+		this.sobreNome = sobreNome;
+	}
 
 }
